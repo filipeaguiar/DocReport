@@ -37,6 +37,12 @@ module.exports = {
       example: 'Lisa Microwave van der Jenny'
     },
 
+    workId: {
+      type: 'string',
+      description: 'Número do conselho apropriado',
+      maxLength: 40
+    },
+
     isSuperAdmin: {
       type: 'boolean',
       description: 'Whether this user is a "super admin" with extra permissions, etc.',
